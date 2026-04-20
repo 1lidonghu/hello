@@ -1,0 +1,10 @@
+import random
+
+# 生成100个0到100之间的随机整数
+random_numbers = [random.randint(0, 100) for _ in range(100)]
+
+# 计算这些整数的平均值
+average = sum(random_numbers) / len(random_numbers)
+
+print("生成的随机整数平均值为:", average)
+    
